@@ -22,7 +22,7 @@ allprojects {
 }
 
 android {
-    compileSdkVersion Integer.parseInt(project.ANDROID_COMPILE_SDK_VERSION)
+    compileSdkVersion 24
     buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
 
     defaultConfig {
@@ -62,12 +62,12 @@ dependencies {
     compile('com.ts.common:zannah-android:1.5.2@aar') {
         transitive = true
     }
-//    compile('com.cognitec:sdk:9.1.4@aar') {
-//        transitive = true
-//    }
-//    compile('com.eyeverify:srvc-ifc:3.2@aar') {
-//        transitive = true
-//    }
+    //    compile('com.cognitec:sdk:9.1.4@aar') {
+    //        transitive = true
+    //    }
+    //    compile('com.eyeverify:srvc-ifc:3.2@aar') {
+    //        transitive = true
+    //    }
     compile 'com.android.support:support-v4:25.0.1'
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.google.android.gms:play-services-base:10.2.0'

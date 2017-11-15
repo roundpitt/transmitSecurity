@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/transmitSecurity.iml" filepath="$PROJECT_DIR$/transmitSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Authentication Control Demo App.iml" filepath="$PROJECT_DIR$/Authentication Control Demo App.iml" />
     </modules>
   </component>
 </project>

@@ -44,14 +44,14 @@ public class DemoAppMenuFragment extends Fragment {
         // Inflate the layout for this fragment
         View res = inflater.inflate(R.layout.fragment_demo_app_menu, container, false);
 
-        res.findViewById(R.id.buttonApprovalsMenuItem).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (mListener != null) {
-                    mListener.approvalsSelected();
-                }
-            }
-        });
+//        res.findViewById(R.id.buttonApprovalsMenuItem).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (mListener != null) {
+//                    mListener.approvalsSelected();
+//                }
+//            }
+//        });
 
         res.findViewById(R.id.buttonConfigurationMenuItem).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,31 +62,31 @@ public class DemoAppMenuFragment extends Fragment {
             }
         });
 
-        res.findViewById(R.id.buttonTransferMenuItem).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (mListener != null) {
-                    mListener.transferSelected();
-                }
-            }
-        });
+//        res.findViewById(R.id.buttonTransferMenuItem).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (mListener != null) {
+//                    mListener.transferSelected();
+//                }
+//            }
+//        });
 
-        res.findViewById(R.id.buttonViewBalanceMenuItem).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (mListener != null) {
-                    mListener.viewBalanceSelected();
-                }
-            }
-        });
-        res.findViewById(R.id.buttonDevicesMenuItem).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (mListener != null) {
-                    mListener.devicesSelected();
-                }
-            }
-        });
+//        res.findViewById(R.id.buttonViewBalanceMenuItem).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (mListener != null) {
+//                    mListener.viewBalanceSelected();
+//                }
+//            }
+//        });
+//        res.findViewById(R.id.buttonDevicesMenuItem).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (mListener != null) {
+//                    mListener.devicesSelected();
+//                }
+//            }
+//        });
         res.findViewById(R.id.buttonLogoutMenuItem).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
