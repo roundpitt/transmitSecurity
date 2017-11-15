@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+      android:layout_gravity="center"
+      android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+      android:background="@color/_TS_authcontrol_main_background_color"
+     tools:context="com.transmit.authenticationcontroldemo.DemoAppMenuFragment">
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/_APP_authcontroldemo_action_configure"
+        style="@style/_APP_buttonStyle"
+        android:id="@+id/buttonConfigurationMenuItem"/>
+
+    Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/_TS_authcontroldemo_action_devices"
+        style="@style/_APP_buttonStyle"
+        android:id="@+id/buttonDevicesMenuItem"/>
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        android:text="@string/_APP_authcontroldemo_action_logout"
+        style="@style/_APP_buttonStyle"
+        android:id="@+id/buttonLogoutMenuItem"/>
+
+</LinearLayout>

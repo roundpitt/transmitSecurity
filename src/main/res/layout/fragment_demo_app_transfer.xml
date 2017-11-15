@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/_TS_authcontrol_main_background_color"
+      tools:context="com.transmit.authenticationcontroldemo.TransferFragment">
+
+    <GridLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:columnCount="2"
+        android:rowCount="2">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:id="@+id/_TS_authcontrol_demo_transfer_to_tv"
+            android:text="@string/_APP_transfer_to_title"
+
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:hint="@string/_APP_transfer_to_hint"
+            android:id="@+id/_TS_authcontrol_demo_transfer_to_ed"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:id="@+id/_TS_authcontrol_demo_transfer_amount_tv"
+            android:text="@string/_APP_transfer_amount_title"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:inputType="number"
+            android:hint="@string/_APP_transfer_amount_hint"
+            android:id="@+id/_TS_authcontrol_demo_transfer_amount_ed"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:id="@+id/_TS_authcontrol_demo_transfer_comment_tv"
+            android:text="@string/_APP_transfer_comment_title"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:hint="@string/_APP_transfer_comment_hint"
+            android:id="@+id/_TS_authcontrol_demo_transfer_comment_ed"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            />
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        style="@style/_APP_buttonStyle"
+        android:id="@+id/_TS_authcontrol_demo_transfer_button"
+
+        android:text="@string/_TS_authcontroldemo_action_transfer"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        style="@style/_APP_buttonStyle"
+        android:id="@+id/_TS_authcontrol_demo_transfer_cancel_button"
+
+        android:text="@android:string/cancel"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

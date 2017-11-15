@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="_APP_edittext_authcontroldemo_hint_color">#ffc6c6c6</color>
+    <color name="_APP_edittext_authcontroldemo_input_color">#ff646363</color>
+    <color name="_APP_authcontroldemo_message_text_color">#ffffffff</color>
+    <color name="_APP_authcontroldemo_btn_color">#e47e0c</color>
+    <color name="_APP_authcontroldemo_fragments_background_color">#ff8205</color>
+
+    <!-- Overriding SDK colors -->
+
+    <!-- also effect information action param name color,
+                     greeting title color,
+                     authenticator selection menu color,
+                     change user and method links color,
+                     configuration view status title color -->
+    <!--
+    <color name="_TS_authribbon_binding_background_color">#28622e</color>
+    -->
+
+    <!-- credentials input text hint color -->
+    <!--
+    <color name="_TS_edittext_hint_color">#28622e</color>
+    -->
+    <!-- also effects disabled button,
+              information action details,
+              confirmation action details,
+              confirmation and information param values
+              texts colors -->
+    <!--
+    <color name="_TS_edittext_input_color">#28622e</color>
+    -->
+    <!-- face authenticator image border color -->
+    <!--
+    <color name="holo_blue_dark">#28622e</color>
+    -->
+    <!-- effects callout,
+                 pin keyboard,
+                 authenticator selection label text colors -->
+    <!--
+    <color name="_TS_authcontrol_message_text_color">#28622e</color>
+    -->
+    <!-- effects error callout texts colors -->
+    <!--
+    <color name="_TS_authcontrol_error_text_color">#28622e</color>
+    -->
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Demo credentials"
+        android:key="pref_key_demo_credentials">
+        <EditTextPreference
+            android:key="pref_key_api_token_name"
+            android:defaultValue="ts-token"
+            android:title="@string/pref_api_token_name_title"/>
+        <EditTextPreference
+            android:key="pref_key_api_token"
+            android:defaultValue="3f8b6af3-6900-44fb-bd5f-9e435d92af1a"
+            android:title="@string/pref_api_token_title"/>
+        <EditTextPreference
+            android:key="pref_key_app_id"
+            android:defaultValue="team3-app"
+            android:title="@string/pref_app_id_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Connection Settings"
+        android:key="pref_key_connection_settings">
+        <EditTextPreference
+            android:key="pref_key_server_uri"
+            android:defaultValue="pnc-api.transmit-test.com"
+            android:title="Server base uri"
+            />
+        <EditTextPreference
+            android:key="pref_key_server_path_prefix"
+            android:title="Optional path prefix"
+            />
+        <EditTextPreference
+            android:key="pref_key_http_port"
+            android:title="HTTP Port"
+            android:defaultValue="8080"
+            android:inputType="number"
+            />
+        <EditTextPreference
+            android:key="pref_key_https_port"
+            android:title="HTTPS Port"
+            android:defaultValue="443"
+            android:inputType="number"
+            />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_is_secure"
+            android:title="Use HTTPS"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Authenticator Configuration"
+        android:key="pref_key_autheticator_config">
+        <EditTextPreference
+            android:key="pref_key_faceauth_license"
+            android:title="@string/pref_faceauth_license_title"
+            android:defaultValue="kFNac8YjzPvEnD9v"
+            />
+        <EditTextPreference
+            android:key="pref_key_eyeauth_license"
+            android:title="@string/pref_eyeauth_license_title"
+            android:defaultValue="ATSS8V"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

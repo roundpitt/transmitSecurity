@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP -->
+
+    <string name="_APP_authcontroldemo_action_login">כניסה לחשבונך</string>
+    <string name="_APP_authcontroldemo_action_settings">הגדרות</string>
+    <string name="_APP_authcontroldemo_action_logout">יציאה</string>
+    <string name="_APP_authcontroldemo_action_clear_all">נקה הכל</string>
+    <string name="_APP_authcontroldemo_action_about">אודות</string>
+    <string name="_APP_authcontroldemo_action_configure">הגדרות זיהוי</string>
+    <string name="_TS_authcontroldemo_action_view_balance">מצב חשבון</string>
+    <string name="_TS_authcontroldemo_action_transfer">העברה</string>
+    <string name="_TS_authcontroldemo_action_approvals">אישורים</string>
+    <string name="_TS_authcontroldemo_action_devices">מכשירים</string>
+    <string name="_TS_device_name_not_selected">"לא נבחר שם"</string>
+    <string name="_APP_authcontroldemo_balance_action_back">חזור</string>
+
+    <string name="_APP_landing_change_user">שנה שם משתמש</string>
+    <string name="_APP_landing_change_auth_method">בחר שיטת הזדהות</string>
+
+    <string name="_APP_landing_fragment_no_user_message">לא נשמר שם משתמש ביישום</string>
+    <string name="_APP_landing_fragment_stored_user_message">שם המשתמש השמור ביישום הוא: </string>
+
+    <string name="_APP_transfer_to_title">עבור:</string>
+    <string name="_APP_transfer_to_hint">שם</string>
+    <string name="_APP_transfer_amount_title">סכום:</string>
+    <string name="_APP_transfer_amount_hint">סכום</string>
+    <string name="_APP_transfer_comment_title">הערה:</string>
+    <string name="_APP_transfer_comment_hint">הערה</string>
+
+    <string name="_TS_username_input_title">הזדהות</string>
+    <string name="_TS_username_input_save_button_title">שמור</string>
+    <string name="_TS_username_input_notice_text">הערה: שם המשתמש שיוזן, ישמר לצורכי שימוש עתידי.</string>
+    <string name="_TS_username_selection_add_user">אחר</string>
+
+    <!-- SDK -->
+
+    <!-- Authentication Method Selection -->
+    <string name="_TS_auth_method_selection_greeting_text">בחר בשיטת ההזדהות הרצויה</string>
+
+    <!-- Credentials input  -->
+
+    <string name="_TS_credentials_forgotPassword_text">שכחת סיסמה?</string>
+    <string name="_TS_credentials_usernameED_hint">שם משתמש</string>
+    <string name="_TS_credentials_passwordED_hint">סיסמה</string>
+    <string name="_TS_credentials_password_confirm_hint">אשר סיסמה</string>
+
+    <!-- Authentication Control - common -->
+
+    <string name="_TS_authcontrol_actionBtn_text">המשך</string>
+
+    <!-- Authentication Control - messages -->
+
+    <string name="_TS_passwordauth_display_name">הזדהות בסיסמה</string>
+    <string name="_TS_passwordauth_icon_label">סיסמה</string>
+
+    <string name="_TS_password_method_continue_button_title">כניסה</string>
+    <string name="_TS_password_method_password_hint_text">סיסמה</string>
+    <string name="_TS_passwordauth_message_common">אנא הזן סיסמה</string>
+    <string name="_TS_passwordauth_message_expired_on_renew">פג תוקף הסיסמה. יש להחליפה כעת.</string>
+
+    <string name="_TS_authcontrol_bad_entered_credentials_error_message">סיסמה לא נכונה. נסה שנית</string>
+
+    <!-- Fingerprint Authentication -->
+
+    <string name="_TS_fingerauth_icon_label">אצבע</string>
+    <string name="_TS_fingerauth_display_name">טביעת אצבע</string>
+
+    <!-- Pattern Authentication -->
+
+    <string name="_TS_pattern_method_startover_btn_text">התחל מחדש</string>
+    <string name="_TS_patternauth_icon_label">תבנית</string>
+    <string name="_TS_patternauth_display_name">הזדהות בתבנית</string>
+    <string name="_TS_patternauth_message_enroll">חבר נקודות ליצירת תבנית הזדהות</string>
+    <string name="_TS_patternauth_message_enroll_repeat">תבנית נרשמה בהצלחה. אנא חזור על אותה תבנית.</string>
+    <string name="_TS_patternauth_message_auth">חבר נקודות ליצירת תבנית הזיהוי שלך</string>
+    <string name="_TS_patternauth_message_auth_repeat_failure">תבנית לא נכונה. נסה שנית</string>
+    <string name="_TS_patternauth_message_expired_on_auth">פג תוקף התבנית. יש להחליפה לאחר ההזדהות.</string>
+
+    <!-- OTP Authentication -->
+
+    <string name="_TS_otpauth_icon_label">קוד חד פעמי</string>
+    <string name="_TS_otpauth_display_name">הזדהות עם קוד חד פעמי</string>
+    <string name="_TS_otpauth_message_auth">אנא הזן את הקוד להמשך.</string>
+    <string name="_TS_otpauth_message_auth_repeat_failure">קוד לא נכון. אנא נסה שנית</string>
+    <string name="_TS_otpauth_message_unavailable_error">הזדהות עם קוד חד פעמי אינה שמישה. אנא בחר שיטת הזדהות אחרת.</string>
+    <string name="_TS_otpauth_message_selection_intro">בחר איך ישלח אליך הקוד</string>
+    <string name="_TS_otpauth_sms_sent">הקוד נשלח. אנא הזן אותו כאן</string>
+    <string name="_TS_otpauth_email_sent">הקוד נשלח. אנא הזן אותו כאן</string>
+    <string name="_TS_otpauth_voice_sent">הקוד מועבר אל הטלפון שלך. אנא הזן אותו כאן.</string>
+    <string name="_TS_otpauth_sms_button_text">שלח</string>
+    <string name="_TS_otpauth_email_button_text">שלח</string>
+    <string name="_TS_otpauth_resend_sms_button_text">שלח שנית</string>
+
+
+    <string name="_TS_auth_menu_registration_cancel_button_title_text">סיום</string>
+
+    <string name="_TS_auth_menu_authentication_title_text">שיטות הזדהות</string>
+    <string name="_TS_auth_menu_registration_title_text">ניהול שיטות הזדהות</string>
+
+    <string name="_TS_auth_menu_registration_instruction_text">הוסף שיטת הזדהות במקום סיסמה</string>
+
+    <string name="_TS_registration_success_dialog_message_text">הגדרה הושלמה בהצלחה</string>
+
+    <string name="_TS_yes_button_title">המשך</string>
+    <string name="_TS_cancel_button_title">ביטול</string>
+
+    <string name="_TS_cancel_auth_dialog_try_again_button_title">נסה שנית</string>
+    <string name="_TS_cancel_auth_dialog_change_method_button_title">שנה שיטת הזדהות</string>
+    <string name="_TS_cancel_auth_dialog_message_text">האם אתה בטוח שברצונך לבטל את תהליך ההזדהות?</string>
+
+    <string name="_TS_unregistered_warning_dialog_message_template_text">בכדי להשתמש ב%s, הזדהה ראשית באמצעות אחת מהשיטות הרשומות ואז בחר \"הגדרות זיהוי\" ביישום.</string>
+    <string name="_TS_locked_authentication_warning_dialog_message_text">המהזה הזה נעול בשל יותר מדי נסיונות הזדהות כושלים. אנא בחר שיטת הזדהות אחרת</string>
+    <string name="_TS_locked_registration_warning_dialog_message_text">שיטת ההזדהות הזו נעולה בשל יותר מדי נסיונות הזדהות כושלים. באפשרותך למחוק או לאתחל אותה מחדש.</string>
+
+    <!-- Fingerprint dialog -->
+
+    <string name="_TS_fingerprint_dialog_touch_hint">גע בחיישן</string>
+    <string name="_TS_fingerprint_dialog_touch_description">הכנס טביעת אצבע להמשך</string>
+    <string name="_TS_fingerprint_dialog_locked_hint">נסה שוב מאוחר יותר</string>
+    <string name="_TS_fingerprint_dialog_bad_fingerprint_hint">אין התאמה, נסה שוב</string>
+    <string name="_TS_fingerprint_dialog_locked_description">יותר מדי נסיונות</string>
+
+    <string name="_TS_unregister_confirmation_dialog_message_template_text">להסיר הזדהות ב%s?</string>
+
+    <string name="_TS_fingerauth_button_continue_text">המשך</string>
+    <string name="_TS_fingerauth_button_cancel_text">ביטול</string>
+
+    <!-- Disclaimer dialog -->
+
+    <string name="_TS_exit_button_title">יציאה</string>
+    <string name="_TS_approve_button_title">אשר</string>
+
+    <!-- Device Management -->
+    <string name="_TS_device_management_cancel_button_title_text">סיום</string>
+</resources>

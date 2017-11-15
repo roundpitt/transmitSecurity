@@ -1,0 +1,4 @@
+ws_base_uri: demo.transmitsecurity.net
+ws_http_port: 8888
+ws_https_port: 8881
+ws_is_secure: true

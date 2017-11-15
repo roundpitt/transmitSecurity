@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff8205"
+    tools:context="com.transmit.authenticationcontroldemo.DemoAppLandingFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login" />
+
+    <Button
+        android:id="@+id/login_btn"
+        style="@style/_APP_buttonStyle"
+        android:layout_width="250dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.02"
+        android:layout_above="@+id/change_user_btn"
+        android:layout_alignLeft="@+id/change_user_btn"
+        android:layout_alignStart="@+id/change_user_btn"
+        android:text="@string/_APP_authcontroldemo_action_login" />
+
+    <Button
+        style="@style/_APP_textonly_buttonStyle"
+        android:layout_above="@+id/change_auth_method_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:text="@string/_APP_landing_change_user"
+        android:id="@id/change_user_btn"
+        android:visibility="invisible"/>
+
+    <Button
+        style="@style/_APP_textonly_buttonStyle"
+        android:layout_above="@+id/dev_options_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:text="@string/_APP_landing_change_auth_method"
+        android:id="@id/change_auth_method_btn"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible"/>
+
+    <Button
+        style="@style/_APP_textonly_buttonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:text="@string/_APP_authcontroldemo_action_dev_options"
+        android:id="@id/dev_options_btn"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/dev_options_btn"/>
+
+</RelativeLayout>

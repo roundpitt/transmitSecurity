@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="_TS_patternauth_blacklist">
+        <item>@string/black_pattern_1</item>
+        <item>@string/black_pattern_2</item>
+    </string-array>
+
+    <!-- The following represents a ח pattern -->
+    <string name="black_pattern_1">r:3,c:0r:2,c:0r:1,c:0r:0,c:0r:0,c:1r:0,c:2r:1,c:2r:2,c:2r:3,c:2</string>
+    <!-- The following represents a כ pattern -->
+    <string name="black_pattern_2">r:0,c:0r:0,c:1r:0,c:2r:1,c:2r:2,c:2r:3,c:2r:3,c:1r:3,c:0</string>
+
+</resources>

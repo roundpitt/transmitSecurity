@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">useLogo|showHome</item>
+    </style>
+
+    <style name="_APP_credinput_edittextStyle">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/_APP_edittext_authcontroldemo_hint_color</item>
+        <item name="android:textColor">@color/_APP_edittext_authcontroldemo_input_color</item>
+    </style>
+
+    <style name="_APP_buttonStyle" parent="_TS_full_buttonStyle">
+        <item name="android:background">@drawable/app_authcontrol_demo_button_selector</item>
+    </style>
+
+    <style name="_APP_textonly_buttonStyle" parent="_TS_textonly_buttonStyle">
+        <item name="android:textColor">@color/_APP_authcontroldemo_btn_color</item>
+    </style>
+
+</resources>
