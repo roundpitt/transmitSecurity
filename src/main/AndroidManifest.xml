@@ -174,7 +174,10 @@
         </activity>
         <activity
             android:name=".ScrollingActivity"
-            android:label="@string/title_activity_scrolling"></activity>
+            android:label="@string/title_activity_scrolling" />
+        <activity
+            android:name=".ZellActivity"
+            android:label="@string/title_activity_zell"></activity>
     </application>
 
 </manifest>
