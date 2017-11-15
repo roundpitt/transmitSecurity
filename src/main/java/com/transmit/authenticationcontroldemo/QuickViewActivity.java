@@ -28,12 +28,12 @@ import com.ts.common.api.ui.AuthenticationCompletionListener;
 import com.ts.sdk.api.SDK;
 import com.ts.sdk.api.ui.AuthenticationListener;
 
-public class MainActivity extends TSAuthenticationContainerActivity implements
+public class QuickViewActivity extends TSAuthenticationContainerActivity implements
         AuthenticationCompletionListener,
         AuthenticationListener,
         DemoAppLandingFragment.Listener {
 
-    private static final String TAG = MainActivity.class.getName();
+    private static final String TAG = QuickViewActivity.class.getName();
 
     // Tags for fragments management
 
@@ -298,7 +298,7 @@ public class MainActivity extends TSAuthenticationContainerActivity implements
 
         if (_status) {
             showAPPLandingFragment();
-            startActivity(new Intent(this, QuickViewActivity.class));
+            startActivity(new Intent(this, MenuActivity.class));
 
             if (mPendingApprovalPush) {
                 showApprovals();
@@ -337,7 +337,7 @@ public class MainActivity extends TSAuthenticationContainerActivity implements
 
     private void askForPermissions() {
         // Here, thisActivity is the current activity
-        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_PHONE_STATE)
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)
                 != PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(this,

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="info.hoang8f:android-segmented-1.0.6">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/656f1b325d39497bfca224dc7fa22963b041095b/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/656f1b325d39497bfca224dc7fa22963b041095b/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a93ca6dbdb811d9e2a8b9daf22769802dc084c4f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a93ca6dbdb811d9e2a8b9daf22769802dc084c4f/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

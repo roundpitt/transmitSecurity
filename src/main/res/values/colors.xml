@@ -6,6 +6,7 @@
     <color name="_APP_authcontroldemo_message_text_color">#ffffffff</color>
     <color name="_APP_authcontroldemo_btn_color">#e47e0c</color>
     <color name="_APP_authcontroldemo_fragments_background_color">#ff8205</color>
+    <color name="_TS_authcontrol_top_bar_background_color">#ffff8205</color>
 
     <!-- Overriding SDK colors -->
 
