@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 
 /**
@@ -43,6 +45,8 @@ public class DemoAppMenuFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View res = inflater.inflate(R.layout.fragment_demo_app_menu, container, false);
+
+        final View res2 = res;
 
 //        res.findViewById(R.id.buttonApprovalsMenuItem).setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -87,6 +91,95 @@ public class DemoAppMenuFragment extends Fragment {
 //                }
 //            }
 //        });
+
+
+
+        res.findViewById(R.id.imageView_quickviewhack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                System.out.println("OnClick quickviewhack");
+                view.setVisibility(View.GONE);
+                res2.findViewById(R.id.imageView_quickviewhackside).setVisibility(View.VISIBLE);
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+            }
+        });
+
+        res.findViewById(R.id.imageView_quickviewhackside).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+                res2.findViewById(R.id.imageView_quickviewhackside).setVisibility(View.GONE);
+                //res2.findViewById(R.id.buttonConfigurationMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonDevicesMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonLogoutMenuItem).setVisibility(View.VISIBLE);
+            }
+        });
+
+        res.findViewById(R.id.buttonOpenZelle).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+                res2.findViewById(R.id.buttonOpenZelle).setVisibility(View.GONE);
+                res2.findViewById(R.id.zellelanding).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonConfigurationMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonDevicesMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonLogoutMenuItem).setVisibility(View.VISIBLE);
+            }
+        });
+
+        res.findViewById(R.id.zellelanding).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+                res2.findViewById(R.id.zellelanding).setVisibility(View.GONE);
+                res2.findViewById(R.id.zellechoose).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonConfigurationMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonDevicesMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonLogoutMenuItem).setVisibility(View.VISIBLE);
+            }
+        });
+
+        res.findViewById(R.id.zellechoose).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+                res2.findViewById(R.id.zellechoose).setVisibility(View.GONE);
+                res2.findViewById(R.id.zelleinput).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonConfigurationMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonDevicesMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonLogoutMenuItem).setVisibility(View.VISIBLE);
+            }
+        });
+
+        res.findViewById(R.id.zelleinput).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+                res2.findViewById(R.id.zelleinput).setVisibility(View.GONE);
+                res2.findViewById(R.id.zellereviewsend).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonConfigurationMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonDevicesMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonLogoutMenuItem).setVisibility(View.VISIBLE);
+            }
+        });
+
+        res.findViewById(R.id.zellereviewsend).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                ((ImageView)findViewById(R.id.imageView_quickviewhack)).setVisibility(View.GONE);
+                res2.findViewById(R.id.zellereviewsend).setVisibility(View.GONE);
+
+                    if (mListener != null) {
+                        //mListener.loginSelected();
+                    }
+
+                res2.findViewById(R.id.zelledone).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonConfigurationMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonDevicesMenuItem).setVisibility(View.VISIBLE);
+                //res2.findViewById(R.id.buttonLogoutMenuItem).setVisibility(View.VISIBLE);
+            }
+        });
+
         res.findViewById(R.id.buttonLogoutMenuItem).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -128,7 +221,6 @@ public class DemoAppMenuFragment extends Fragment {
      * >Communicating with Other Fragments</a> for more information.
      */
     public interface Listener {
-
         void devicesSelected();
         void approvalsSelected();
         void configurationSelected();

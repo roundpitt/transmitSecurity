@@ -100,7 +100,7 @@ public class QuickViewActivity extends FragmentActivity implements
             }
         };
 
-        mProgressDialog = ProgressDialog.show(MenuActivity.this, null, "Logging out...", false, false);
+        mProgressDialog = ProgressDialog.show(QuickViewActivity.this, null, "Logging out...", false, false);
 
         SDK.getInstance().logout(((AuthControlApplication)getApplication()).getTSAuthToken(), new OperationListener() {
             @Override

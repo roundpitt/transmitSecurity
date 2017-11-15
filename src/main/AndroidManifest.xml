@@ -122,6 +122,16 @@
                 android:value="com.transmit.authenticationcontroldemo.MainActivity" />
         </activity>
 
+        <activity
+            android:name=".QuickViewActivity"
+            android:label="Quick View"
+            android:parentActivityName=".QuickViewActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.transmit.authenticationcontroldemo.MainActivity" />
+        </activity>
+
         <!-- Let SDK manage push notification registration and receipt -->
         <!-- <receiver -->
         <!-- android:name="com.ts.sdk.internal.gcm.GcmBroadcastReceiver" -->
