@@ -298,7 +298,7 @@ public class MainActivity extends TSAuthenticationContainerActivity implements
 
         if (_status) {
             showAPPLandingFragment();
-            startActivity(new Intent(this, MenuActivity.class));
+            startActivity(new Intent(this, QuickViewActivity.class));
 
             if (mPendingApprovalPush) {
                 showApprovals();
